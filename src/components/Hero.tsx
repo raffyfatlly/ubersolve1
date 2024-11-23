@@ -164,7 +164,7 @@ export default function Hero() {
                 <span key={platforms[currentPlatform]} className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-400 animate-slide-up">
                   {platforms[currentPlatform]}
                 </span>
-                <div className="absolute -bottom-2 left-0 w-full h-[1px] bg-gradient-to-r from-green-500/50 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-green-500/0 via-green-500/50 to-green-500/0"></div>
               </span>
               {' '}with AI Chatbot
             </h1>
